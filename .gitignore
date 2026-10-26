@@ -1,0 +1,8 @@
+# Local planning notes (not tracked)
+.plan/
+
+# macOS metadata
+.DS_Store
+
+# Local reference paper
+/Debias_random_forest_regression_predictors.pdf
