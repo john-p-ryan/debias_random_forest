@@ -20,5 +20,12 @@ dist/
 # Julia
 Manifest.toml
 
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rcheck/
+debiasforest_*.tar.gz
+
 # Downloaded data cache
 demo/data/

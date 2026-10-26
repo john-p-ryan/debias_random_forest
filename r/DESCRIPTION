@@ -1,0 +1,30 @@
+Package: debiasforest
+Title: Bias Correction for Random Forest Regression
+Version: 0.1.0
+Authors@R:
+    person("John", "Ryan", email = "jpryan7@wisc.edu", role = c("aut", "cre"))
+Description: Bias-correction methods for random forest regression compared in
+    Chen, Withana Gamage and Ryan (2022) <doi:10.3329/jsr.v56i2.67466>: the
+    boosted forest (forests fitted to out-of-bag residuals), univariate
+    smoothing of the out-of-bag predictions (linear, quadratic, cubic and
+    smoothing spline) and the conditional bias correction of Lu and Hardin
+    (2021). Built on 'randomForest' forests, with the paper's simulation
+    designs, a stopping rule for the number of boosting iterations and helpers
+    for simulation studies and repeated train/test splits.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends:
+    R (>= 4.0.0)
+Imports:
+    graphics,
+    grDevices,
+    parallel,
+    randomForest (>= 4.6-14),
+    stats,
+    tools,
+    utils
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
